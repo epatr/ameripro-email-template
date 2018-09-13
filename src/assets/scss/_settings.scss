@@ -16,7 +16,7 @@
 // 1. Global
 // ---------
 
-$primary-color: #231f20;
+$primary-color: #f68842;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -30,8 +30,8 @@ $pre-color: #ff6908;
 $global-width: 680px;
 $global-width-small: 95%;
 $global-gutter: 16px;
-$body-background: darken(#85b3d4, 25%);
-$container-background: #85b3d4;
+$body-background: #263026; //# 003518;
+$container-background: #005e20;
 $global-padding: 16px;
 $global-margin: 16px;
 $global-radius: 3px;
@@ -54,7 +54,7 @@ $block-grid-gutter: $global-gutter;
 // 4. Typography
 // -------------
 
-$global-font-color: $black;
+$global-font-color: $white;
 $body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
@@ -73,7 +73,7 @@ $header-margin-bottom: 10px;
 $paragraph-margin-bottom: 10px;
 $small-font-size: 80%;
 $small-font-color: $medium-gray;
-$lead-font-size: $global-font-size * 1.25;
+$lead-font-size: $global-font-size * 1.75;
 $lead-line-height: 1.6;
 $text-padding: 10px;
 $subheader-lineheight: 1.4;

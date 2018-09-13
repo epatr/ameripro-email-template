@@ -71,6 +71,15 @@ td {
             color: $light-gray;
         }
     }
+
+    .callout-irish {
+        background: #263026 !important;
+        background-color: #263026;
+        border: none !important;
+        p {
+            margin-bottom: 0;
+        }
+    }
 }
 
 .strikethrough {
@@ -92,4 +101,8 @@ h5 {
 
 hr {
     border-color: #cccccc;
+}
+
+.lead {
+    font-weight: 300;
 }
