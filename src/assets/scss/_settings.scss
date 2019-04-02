@@ -28,13 +28,14 @@ $dark-gray: #404040;
 $black: #262526;
 $white: #fefefe;
 $pre-color: #ff6908;
-$global-width: 680px;
+$global-width: 640px;
 $global-width-small: 95%;
 $global-gutter: 16px;
-//$body-background: $medium-gray;
 $body-background: $dark-gray;
+//$body-background: $dark-gray;
 //$body-background: #b07e09;
 //$body-background: #ffcf01;
+//$body-background: #202f65; // AmeriPro blue
 $container-background: $white;
 $global-padding: 16px;
 $global-margin: 16px;
@@ -59,7 +60,7 @@ $block-grid-gutter: $global-gutter;
 // -------------
 
 $global-font-color: $black;
-$body-font-family: soleil, Helvetica, Arial, sans-serif;
+$body-font-family: proxima-nova, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $global-font-weight: normal;
 $header-color: inherit;
 $global-line-height: 1.5;
