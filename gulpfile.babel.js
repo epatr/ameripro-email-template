@@ -117,6 +117,7 @@ function watch() {
 // Inlines CSS into HTML, adds media query CSS into the <style> tag of the email, and compresses the HTML
 function inliner(css) {
   var css = fs.readFileSync(css).toString();
+  var fonts = fs.readFileSync("src/assets/scss/webkit.scss").toString();
   var mqCss = siphon(css);
 
   var pipe = lazypipe()
@@ -126,7 +127,7 @@ function inliner(css) {
       preserveMediaQueries: true,
       removeLinkTags: false
     })
-    .pipe($.replace, '<!-- <style> -->', `<style>${mqCss}</style>`)
+    .pipe($.replace, '<!-- <style> -->', `<style>${fonts}${mqCss}</style>`)
     .pipe($.replace, '<link rel="stylesheet" type="text/css" href="css/app.css">', '')
     .pipe($.htmlmin, {
       collapseWhitespace: true,
