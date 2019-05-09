@@ -86,10 +86,26 @@ td {
     color: $primary-color;
 }
 
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-bold-condensed {
+    font-family: trade-gothic-next-condensed, $body-font-family;
+    font-weight: 800;
+}
+
 h5 {
     text-transform: uppercase;
 }
 
 hr {
     border-color: #cccccc;
+}
+
+.box-shadow {
+    box-shadow: -2px 2px 10px 0 rgba(50,50,50,.15);
+    &-tight {
+        box-shadow: -2px 2px 4px 0 rgba(24,24,24,.25);
+    }
 }
